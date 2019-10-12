@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="273px" height="449px" viewBox="0 0 273 449" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Fichas/EquipoFondo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Fichas/EquipoFondo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="2" y="2" width="266" height="443"></rect>
+        <path d="M4,2 L4,0 L266,0 L266,2 L268,2 L268,4 L270,4 L270,443 L268,443 L268,445 L266,445 L266,447 L4,447 L4,445 L2,445 L2,443 L1.19904087e-14,443 L-6.88338275e-14,4 L2,4 L2,2 L4,2 Z M5,3 L5,5 L3,5 L3,442 L5,442 L5,444 L265,444 L265,442 L267,442 L267,5 L265,5 L265,3 L5,3 Z" id="Combined-Shape-Copy" fill="#4A4A4A" fill-rule="nonzero"></path>
+        <polygon id="Combined-Shape" fill="#4A4A4A" fill-rule="nonzero" points="268.990454 6 272.003815 6 272.003815 8.0097366 273 8.0097366 273 447 268 447"></polygon>
+        <rect id="Rectangle" fill="#4A4A4A" x="6" y="446" width="265" height="3"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="266" y="445" width="3" height="2"></rect>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="65px" viewBox="0 0 68 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Btn/&gt;</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Btn/&gt;" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#31AEA9" fill-rule="nonzero" transform="translate(33.000000, 32.500000) scale(1, -1) translate(-33.000000, -32.500000) " x="0" y="2" width="66" height="61"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="66" height="2"></rect>
+        <rect id="Rectangle-Copy-19" fill="#4A4A4A" x="0" y="63" width="66" height="2"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="64" y="2" width="2" height="2"></rect>
+        <rect id="Rectangle" fill-opacity="0.5" fill="#4A4A4A" x="0" y="61" width="66" height="2"></rect>
+        <rect id="Rectangle-Copy-22" fill-opacity="0.25" fill="#4A4A4A" x="0" y="59" width="66" height="2"></rect>
+        <rect id="Rectangle-Copy-18" fill="#4A4A4A" x="64" y="61" width="2" height="2"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="66" y="2" width="2" height="61"></rect>
+        <g id="Group-Copy-2" transform="translate(35.000000, 33.500000) rotate(-270.000000) translate(-35.000000, -33.500000) translate(21.000000, 20.000000)" fill="#EBEFEE" fill-rule="nonzero">
+            <polygon id="Path" transform="translate(14.000000, 6.600000) rotate(-270.000000) translate(-14.000000, -6.600000) " points="15.7870036 6.6 20.6 17.5083333 15.2151625 20.6 7.4 6.6 15.2151625 -7.4 20.6 -4.30833333"></polygon>
+            <polygon id="Path" transform="translate(14.000000, 20.100000) rotate(-270.000000) translate(-14.000000, -20.100000) " points="15.6516245 20.1 20.1 31.0083333 15.1231047 34.1 7.9 20.1 15.1231047 6.1 20.1 9.19166667"></polygon>
+        </g>
+        <rect id="Rectangle" fill-opacity="0.5" fill="#4A4A4A" x="0" y="12" width="2" height="42"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="0" y="13" width="1" height="40"></rect>
+    </g>
+</svg>

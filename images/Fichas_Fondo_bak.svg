@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="723px" height="532px" viewBox="0 0 723 532" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Fichas/Fondo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Fichas/Fondo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#EBEFEE" x="2" y="2" width="716" height="526"></rect>
+        <g id="CajasBordes" fill="#4A4A4A">
+            <rect id="Rectangle-Copy" x="4" y="0" width="712" height="3"></rect>
+            <rect id="Rectangle-Copy-6" transform="translate(718.500000, 265.000000) rotate(-360.000000) translate(-718.500000, -265.000000) " x="717" y="4" width="3" height="522"></rect>
+            <rect id="Rectangle-Copy" x="715" y="2" width="3" height="3"></rect>
+            <rect id="Rectangle-Copy-4" x="715" y="525" width="3" height="3"></rect>
+            <rect id="Rectangle-Copy-2" x="4" y="527" width="712" height="3"></rect>
+            <rect id="Rectangle-Copy-7" transform="translate(1.500000, 265.000000) rotate(-360.000000) translate(-1.500000, -265.000000) " x="0" y="4" width="3" height="522"></rect>
+            <rect id="Rectangle" x="2" y="2" width="3" height="3"></rect>
+            <rect id="Rectangle-Copy-3" x="2" y="525" width="3" height="3"></rect>
+        </g>
+        <path d="M1,60.5 L718,60.5" id="-----" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square" stroke-dasharray="6,5"></path>
+        <g id="Lineas" transform="translate(97.000000, 22.000000)" fill="#4A4A4A">
+            <rect id="Rectangle" x="0" y="0" width="552" height="2"></rect>
+            <rect id="Rectangle-Copy-4" x="0" y="6" width="552" height="2"></rect>
+            <rect id="Rectangle-Copy-5" x="0" y="12" width="552" height="2"></rect>
+            <rect id="Rectangle-Copy-7" x="0" y="18" width="552" height="2"></rect>
+        </g>
+        <g id="Resize" transform="translate(657.000000, 22.000000)" fill="#4A4A4A">
+            <path d="M0,20 L20,20 L20,0 L0,0 L0,20 Z M1.45565041,18.5460155 L18.5453142,18.5460155 L18.5453142,1.45398448 L1.45565041,1.45398448 L1.45565041,18.5460155 Z" id="Fill-17"></path>
+            <path d="M0,10 L10,10 L10,0 L0,0 L0,10 Z M1.41384803,8.58694634 L8.58615197,8.58694634 L8.58615197,1.41305366 L1.41384803,1.41305366 L1.41384803,8.58694634 Z" id="Fill-18"></path>
+        </g>
+        <g id="Circulos" transform="translate(19.000000, 23.000000)">
+            <g id="Group-5">
+                <path d="M11,7.50100719 C11,9.43381295 9.43280576,11.0010072 7.49899281,11.0010072 C5.56618705,11.0010072 4,9.43381295 4,7.50100719 C4,5.56719424 5.56618705,4 7.49899281,4 C9.43280576,4 11,5.56719424 11,7.50100719" id="Fill-35" fill="#4A4A4A"></path>
+                <circle id="Oval" stroke="#4A4A4A" stroke-width="2" cx="7.5" cy="7.5" r="6.5"></circle>
+            </g>
+            <g id="Group-5-Copy" transform="translate(23.000000, 0.000000)">
+                <path d="M11,7.50100719 C11,9.43381295 9.43280576,11.0010072 7.49899281,11.0010072 C5.56618705,11.0010072 4,9.43381295 4,7.50100719 C4,5.56719424 5.56618705,4 7.49899281,4 C9.43280576,4 11,5.56719424 11,7.50100719" id="Fill-35" fill="#4A4A4A"></path>
+                <circle id="Oval" stroke="#4A4A4A" stroke-width="2" cx="7.5" cy="7.5" r="6.5"></circle>
+            </g>
+            <g id="Group-5-Copy-2" transform="translate(46.000000, 0.000000)">
+                <path d="M11,7.50100719 C11,9.43381295 9.43280576,11.0010072 7.49899281,11.0010072 C5.56618705,11.0010072 4,9.43381295 4,7.50100719 C4,5.56719424 5.56618705,4 7.49899281,4 C9.43280576,4 11,5.56719424 11,7.50100719" id="Fill-35" fill="#4A4A4A"></path>
+                <circle id="Oval" stroke="#4A4A4A" stroke-width="2" cx="7.5" cy="7.5" r="6.5"></circle>
+            </g>
+        </g>
+        <path d="" id="Path-2" fill="#4A4A4A" fill-rule="nonzero"></path>
+        <polygon id="Rectangle" fill="#4A4A4A" fill-rule="nonzero" points="6 528.999597 720 527 720 532 6 532"></polygon>
+        <path d="M722,6 L722,7 L723,7 L723,529 L718,529 L718.990454,6 L722,6 Z" id="Combined-Shape" fill="#4A4A4A" fill-rule="nonzero"></path>
+        <g id="Lineas2" transform="translate(685.000000, 22.000000)" fill="#4A4A4A">
+            <rect id="Rectangle" x="0" y="0" width="12" height="2"></rect>
+            <rect id="Rectangle-Copy-4" x="0" y="6" width="12" height="2"></rect>
+            <rect id="Rectangle-Copy-5" x="0" y="12" width="12" height="2"></rect>
+            <rect id="Rectangle-Copy-7" x="0" y="18" width="12" height="2"></rect>
+        </g>
+    </g>
+</svg>
