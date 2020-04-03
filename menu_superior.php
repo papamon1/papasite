@@ -1,7 +1,3 @@
-<?php
-include_once 'common.php';
-$pag=str_replace("/test/","", $_POST['pag']);
-?>
 
     <nav class="navbar navbar-expand-lg"> 
         <!-- <div class="linea-inferior"></div> -->

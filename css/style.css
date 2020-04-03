@@ -73,6 +73,67 @@ Negros: 4A4A4A
 Oscurisimo: 0a0a0a
 */
 
+
+
+
+
+.imagen{
+  max-width: 100%;
+  height: auto;    
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+@media (max-width: 991px) {
+  .imagen {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 3rem;
+  }
+  .resp{
+    display: block;
+  }
+  
+  .noresp{
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  .resp{
+    display: none;
+  }
+  .noresp{
+    display: block;
+  }
+}
+
+.titulo-rojo {
+  font: 500 18px/1 "Ubuntu Mono", sans-serif;
+  color: #ED5265;
+  /* padding-top: 170px; */
+}
+.titulo-verde{
+  text-align: left;
+  font: 300 40px/57px "Ubuntu Mono", sans-serif;
+  color: #99ff99;
+  padding-top: 8px;
+  padding-bottom: 40px;
+}
+
+
+.agency_task .agency_contant p {
+  padding-right:15%;
+}
+
+.agency_task {
+  padding-top: 180px !important;
+}
+@media (max-width: 991px) {
+  .agency_task {
+    padding-top: 80px !important;
+  }
+}
+
 .contenedor{
 
   max-width: 1170px;
@@ -1902,25 +1963,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   background: #ff4c4c;
 }
 
-.agency_task {
-  padding: 160px 0;
-  padding-bottom:80px;
-  margin-top: 70px;
-}
-.agency_task .agency_task_img {
-  position: relative;
-}
-.agency_task .agency_task_img img {
-  margin-left:15%;
-  max-width: 60%;
-  margin-top: 50px;
-}
-
-.agency_task .agency_task_img_right img {  
-  margin-left:15%;
-  max-width: 60%;
-  margin-top: 58px;
-}
 
 .agency_task .agency_task_img .task_btn {
   position: absolute;
@@ -2791,6 +2833,13 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   z-index: -1;
   animation: rotation 20s infinite;
 } */
+
+@media (min-width: 991px) {
+  .testimonial_area .testimonial {
+    display: none;
+  }
+}
+
 .testimonial_area .testimonial {
   padding: 0;
 }
@@ -5542,7 +5591,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   /* background-image: radial-gradient(50% 149%, #004A5E 50%, #032129 100%); */
   background-size: cover;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
   padding: 70px 0;
   border-left: 4px solid #99FF99 !important;
   border-left-color: #99FF99;
@@ -5580,7 +5629,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   color: #0a0a0a;  
   z-index: 999;
   background-color: #ED5265;
-  box-shadow: inset 0px -3px 0px 0px rgba(25,30,40,0.25);
+  border: none;
   display: none;
 }
 
@@ -6033,7 +6082,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     max-height: 370px;
     overflow-y: auto;
     background: #191e28;
-    border: 1px dashed #fff;
+    border: 1px dashed #99ff99;
     padding-left: 0 !important;
   }
 
@@ -6953,4 +7002,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 /* Font family link */
 
 /*# sourceMappingURL=style.css.map */
+
+
 

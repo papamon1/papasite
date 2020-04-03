@@ -1,6 +1,4 @@
-<?php
-include_once 'common.php';
-?>
+
 <?php include_once 'header.php' ?>
 
     
@@ -29,41 +27,47 @@ include_once 'common.php';
 
 
    <!-- Agency Task Are Start -->
-	
-		<div class="agency_task row" id="comienzo">		
-			<div class="col-lg-6 p-0 wow fadeInRight">
-				<div class="agency_contant_right">
-					<h5>//¿Quiénes somos?</span></h5>
-					<h2>Comunicación y eficiencia, <br/> sin corbatas<span class="blink">_</span></h2>
-					<p>Somos un equipo de experimentados profesionales, amantes del desarrollo, la tecnología y todas las formas de creatividad, que tras más de 15 años de experiencia en el sector decidimos
-						iniciar este proyecto enfocando el trabajo desde una filosofía diferente.</p>				
-					<a class='boton' href="qs.php">Leer más</a>
-					
+		<div class="container">
+			<div class="agency_task row justify-content-around" id="comienzo">		
+				<div class="col-lg-7 wow fadeInRight">
+					<div>
+						<h5 class="titulo-rojo">//¿Quiénes somos?</h5>
+						<h2 class="titulo-verde">Comunicación y eficiencia, <br/> sin corbatas<span class="blink">_</span></h2>
+						<p>Somos un equipo de experimentados profesionales, amantes del desarrollo, la tecnología y todas las formas de creatividad, que tras más de 15 años de experiencia en el sector decidimos
+							iniciar este proyecto enfocando el trabajo desde una filosofía diferente.</p>				
+						<a class='boton' href="qs.php">Leer más</a>
+						
+					</div>
+				</div>
+				<div class="col-lg-4 wow fadeInLeft text-center">
+					<img src="images/Ilustraciones/QuienesSomos.png" class="imagen" alt="">			
 				</div>
 			</div>
-			<div class="col-lg-6 p-0 agency_task_img_right wow fadeInLeft">
-				<img src="images/Ilustraciones/QuienesSomos.png" alt="">			
+		</div>		
+
+
+
+
+	<div class="container-xl">
+		<div class="agency_task row justify-content-around">
+			<div class="col-lg-4 wow fadeInLeft">
+				<img src="images/Ilustraciones/NosIncorporas.png" class="imagen" alt="">			
 			</div>
-		</div>
-
-
-
-
-
-	<div class="agency_task row">
-		<div class="col-lg-6 p-0 agency_task_img wow fadeInLeft">
-			<img src="images/Ilustraciones/NosIncorporas.png" alt="">			
-		</div>
-		<div class="col-lg-6 p-0 wow fadeInRight">
-			<div class="agency_contant">
-				<h5>//¿Cómo lo hacemos?</span></h5>
-				<h2>No nos contratas,<br/>nos incorporas<span class="blink">_</span></h2>
-				<p>Esto nos permite conocernos y conectar mejor con nuestros clientes, sabiendo exactamente lo que necesitan. Además pensamos en soluciones robustas. Apostamos por relaciones largas que den como resultado herramientas sólidas
-					y potentes. Hacemos que tu software crezca, evolucione y dure. Cuantos más años mejor. </p>	
-				<a class='boton' href="ch.php">Leer más</a>			
+			<div class="col-lg-7 wow fadeInRight">
+				<div class="">
+					<h5 class="titulo-rojo">//¿Cómo lo hacemos?</span></h5>
+					<h2 class="titulo-verde">No nos contratas,<br/>nos incorporas<span class="blink">_</span></h2>
+					<p>Esto nos permite conocernos y conectar mejor con nuestros clientes, sabiendo exactamente lo que necesitan. Además pensamos en soluciones robustas. Apostamos por relaciones largas que den como resultado herramientas sólidas
+						y potentes. Hacemos que tu software crezca, evolucione y dure. Cuantos más años mejor. </p>	
+					<a class='boton' href="ch.php">Leer más</a>			
+				</div>
+			</div>
+			<div class="col-lg-4 d-none-lg wow fadeInLeft">
+				<img src="images/Ilustraciones/NosIncorporas.png" class="imagen" alt="">			
 			</div>
 		</div>
 	</div>
+	
 
 	
     <!-- Agency Task Area End -->

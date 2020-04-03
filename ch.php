@@ -1,6 +1,4 @@
-<?php
-include_once 'common.php';
-?>
+
 <?php include_once 'header.php' ?>
 
     
@@ -26,7 +24,7 @@ include_once 'common.php';
 		<img src="images/get-shap-3.png" class="get-shap" alt=""> -->
     	<div class="container">
 			<!-- ortfolio_row-->
-			<div class="comohacemos">
+			<div class="comohacemos" id="comienzo">
 				<div class="row portfolio_row">
 					<div class="col-lg-7 pl_contant">
 						<h2 class="titulo_bloques">Cómo trabajamos<span class="blink">_</span></h2>

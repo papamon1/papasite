@@ -1,7 +1,4 @@
-<?php
-include_once 'common.php';
-$pag=str_replace("/test/","", $_POST['pag']);
-?>
+
 
     <section class="get_touch"> 		
 		<div class="container"> 			
@@ -15,6 +12,7 @@ $pag=str_replace("/test/","", $_POST['pag']);
 
     <!-- Footer Area Start -->
     <section class="footer_area">
+        <div style="background-color: #99ff99; width:100%; height: .15rem; margin-bottom:2rem;"></div>
         <div class="container">
             <div class="row bottom_border">
                 <div class="col-lg-3 col-sm-6 wow fadeIn">

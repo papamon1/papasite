@@ -1,6 +1,4 @@
-<?php
-include_once 'common.php';
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,9 +11,11 @@ include_once 'common.php';
     <title>Papa.Mono - Grupo de desarrollo creativo independiente</title> 
     
     <!-- Theme style CSS --> 
-    <link rel="stylesheet" href="css/bootstrap-select.min.css">
-    <link href="css/style.css" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="css/tele.css" >
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">    
+    <link href="css/layout.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="./css/tele.css" >
+    <link rel="stylesheet" type="text/css" href="./css/style.css" >
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
