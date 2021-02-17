@@ -73,9 +73,148 @@ Negros: 4A4A4A
 Oscurisimo: 0a0a0a
 */
 
+.haremos{
+  background-color: #0a0a0a;
+  margin-top: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.haremos-content{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.haremos__parrafo{
+  text-align: left;
+  max-width: 226px;
+}
+
+
+.separador{
+  margin-top: 7rem;
+}
+
+.mas{
+  background-color: #0a0a0a;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 10rem;
+}
+
+.mas img{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;  
+  border-color: transparent;
+}
+
+.mas img:hover{  
+  border-color: #99FF99;  
+}
+
+
+.seccion__texto{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
 
 
+.ventana-contacto{
+  /* background-image: url('../images/Contact_Fondo.svg'); */
+  display: flex;
+  position: relative;
+}
+
+.ventana-contacto img{
+  /* background-image: url('../images/Contact_Fondo.svg'); */
+  margin: 0 auto;
+}
+
+.ventana-contacto__centro{
+  /* background-image: url('../images/Contact_Fondo.svg'); */  
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+
+@media (max-width: 666px) {
+
+  .ventana-contacto img{
+    /* background-image: url('../images/Contact_Fondo.svg'); */
+    margin: 0 auto;
+    padding-top: 5rem;
+  }
+
+  .ventana-contacto__centro p{
+    /* background-image: url('../images/Contact_Fondo.svg'); */  
+    max-width: 13.5rem;
+  }  
+
+  .ventana-contacto__centro .boton{
+    background: #ED5265;
+    color: #0a0a0a !important;
+    display: inline-block;
+    line-height: 2rem;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid #0a0a0a;
+    /* position: relative; */  
+    /* font-size: 18px;
+    padding: 16px; 
+    color: white; */
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: inset 0px -3px 0px 0px rgba(25,30,40,0.25);
+    height: 40px;
+    width: 128px;
+    background-image: linear-gradient(to bottom, transparent 50px, rgba(25,30,40,.25) 3px, rgba(25,30,40,.25) 6px, transparent 60px);
+    /* min-width: 250px; */
+  }
+}
+
+
+@media (min-width: 991px) {
+  
+  .ventana-contacto__centro{
+    /* background-image: url('../images/Contact_Fondo.svg'); */  
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }  
+
+}
+
+
+@media (max-width: 991px) {
+  
+
+    .ventana-contacto__centro h1{
+      font-size: 32px;
+    }
+}
+
+@media (min-width: 770px), (max-width: 990px) {
+  
+  .ventana-contacto__imagen{
+    /* background-image: url('../images/Contact_Fondo.svg'); */
+    width:60% !important;
+  }
+
+}
+
+
+.ul-footer li{
+  margin-top: -8px;
+}
 
 .imagen{
   max-width: 100%;
@@ -114,10 +253,17 @@ Oscurisimo: 0a0a0a
 }
 .titulo-verde{
   text-align: left;
-  font: 300 40px/57px "Ubuntu Mono", sans-serif;
+  font: 600 40px/57px "Ubuntu Mono", sans-serif;
   color: #99ff99;
   padding-top: 8px;
   padding-bottom: 40px;
+}
+
+.titulo-thumbs{
+  text-align: left;
+  font: 600 20px/57px "Ubuntu Mono", sans-serif;
+  color: #99ff99;
+  padding-top: 8px;
 }
 
 
@@ -263,10 +409,10 @@ Oscurisimo: 0a0a0a
   height: 60px;   
   25,30,40,0.5
 } */
-.para_thumb{
-  padding-left: 24px;
-  padding-top: 24px;
+.para_thumb{  
   font-size: 15px;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 .boton {
   background: #ED5265;
@@ -289,6 +435,27 @@ Oscurisimo: 0a0a0a
   /* min-width: 250px; */
 }
 
+.botonPeq {
+  background: #ED5265;
+  color: #0a0a0a !important;
+  display: inline-block;
+  line-height: 2rem;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 2px solid #0a0a0a;
+  /* position: relative; */  
+  /* font-size: 18px;
+  padding: 16px; 
+  color: white; */
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: inset 0px -3px 0px 0px rgba(25,30,40,0.25);
+  height: 40px;
+  width: 128px;
+  background-image: linear-gradient(to bottom, transparent 50px, rgba(25,30,40,.25) 3px, rgba(25,30,40,.25) 6px, transparent 60px);
+  /* min-width: 250px; */
+}
+
 .boton a{
   color: #0a0a0a !important;  
 }
@@ -297,12 +464,20 @@ Oscurisimo: 0a0a0a
   background: #0a0a0a;
   cursor:pointer;
   color: #ED5265 !important; 
+  border-color: #ED5265;
 }
 
 .boton a:hover {
   background: #0a0a0a;
   cursor:pointer;
   color: #ED5265 !important; 
+}
+
+.botonPeq:hover {
+  background: #0a0a0a;
+  cursor:pointer;
+  color: #ED5265 !important; 
+  border-color: #ED5265;
 }
 
 .eightbit-btn:hover, .eightbit-btn:focus {
@@ -3849,21 +4024,25 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   padding-top: 60px;
 }
 .team_area .team {
-  text-align: center;
-  /* box-shadow: inset 0px 0px 0px 2px #000; */
-  background: url("../images/Equipo.svg") no-repeat center;  
-  /* border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/Equipo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   margin-bottom: 30px;
-  padding-top: 56px;
-  padding-right: 40px;
-  padding-bottom: 75px;
-  padding-left: 40px;
   transition: all 300ms linear 0s;
-  min-height: 449px;
+  width: 284px;
+  position: relative;
+  margin-block-end: 2rem;
+  padding-bottom: 2rem;
+  min-height:500px;
 }
-.team_area .team img {
-  max-width: 100%;
-  margin-top: 55px;
+
+.team_area__imagen {
+  max-width: 60%;
+  margin-top:34%;
 }
 .team_area .team:hover {
   /* box-shadow: 0px 20px 42px 0px rgba(158, 151, 253, 0.36); */
@@ -3886,11 +4065,91 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 
 .team_area .team h6 {
+  display: block;
+  max-width: 12rem;
   font: 300 20px/1.4 "Ubuntu Mono", sans-serif;
   color: #c0c0c0;
   padding-top: 15px;
   min-height: 28px;
 }
+
+@media (min-width: 991px) {
+
+  .team_area__imagen {
+    max-width: 60%;
+    margin-top:62%;
+  }
+
+  .team_area .team h6 {
+    display: block;
+    max-width: 10rem;
+    font: 300 16px/1.4 "Ubuntu Mono", sans-serif;
+    color: #c0c0c0;
+    padding-top: 15px;    
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+  .team_area {
+    display: block;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  .team_area .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/Equipo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 30px;
+    transition: all 300ms linear 0s;
+    width: 284px;
+    position: relative;
+    margin-block-end: 2rem;
+    padding-bottom: 2rem;
+    min-height:500px;
+  }
+  
+  .team_area__imagen {
+    max-width: 60%;
+    margin-top:34%;
+  }
+  .team_area .team:hover {
+    /* box-shadow: 0px 20px 42px 0px rgba(158, 151, 253, 0.36); */
+  }
+  .team_area .team a {
+    display: block;
+    font: 500 24px/1 "Ubuntu Mono", sans-serif;
+    color: #ED5265;
+    padding-top: 65px;
+  }
+  .team_area .team a:hover {
+    color: #ff846f;
+  }
+  
+  .team_area .team h5 {
+    display: block;
+    font: 300 24px/1 "Ubuntu Mono", sans-serif;
+    color: #99ff99;
+    padding-top: 25px;
+  }
+  
+  .team_area .team h6 {
+    display: block;
+    max-width: 12rem;
+    font: 300 20px/1.4 "Ubuntu Mono", sans-serif;
+    color: #c0c0c0;
+    padding-top: 15px;
+    min-height: 28px;
+  }
+}
+
+
+
 
 
 .team_p {
@@ -5414,7 +5673,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   transition: .4s;
 }
 .footer_area .footer_about {
-  padding-bottom: 70px;
+  padding-bottom: 64px;
 }
 .footer_area .footer_about h3 {
   font: 500 20px/1 "Ubuntu Mono", sans-serif;
@@ -5511,10 +5770,10 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 .footer_area .copy_right p {
   font-size: 18px;
-  padding: 35px 0;
+  /* padding: 35px 0; */
 }
 .footer_area .copy_right ul {
-  padding: 35px 0;
+  /* padding: 35px 0; */
   text-align: right;
 }
 .footer_area .copy_right ul li {
@@ -5796,17 +6055,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   .portfolio_list .portfolio_row .pl_img img {
     display: none;
     max-width: 100%;
-  }
-
-  .portfolio_list .comohacemos::before {
-    background-image: url(../images/Ilustraciones/ComoTrabajamos.png);
-    background-size: 243px 330px;
-    display: inline-block;
-    width: 243px; 
-    height: 330px;
-    content:"";
-    margin-left: 35%;        
-    margin-bottom: 35px;
   }
 
 
@@ -6501,11 +6749,11 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     min-width: 100%;
   }
   .footer_area .copy_right {
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
   }
   .footer_area .copy_right ul {
     text-align: center;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
   }
   .footer_area .copy_right p {
     text-align: center;
@@ -6891,17 +7139,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 
   .agency_task .agency_contant_right .soluciones::before {
     background-image: url(../images/Soluciones.svg);
-    background-size: 243px 330px;
-    display: inline-block;
-    width: 243px; 
-    height: 330px;
-    content:"";
-    margin-left: 12%;        
-    margin-bottom: 35px;
-  }
-  
-  .portfolio_list .comohacemos::before {
-    background-image: url(../images/Ilustraciones/ComoTrabajamos.png);
     background-size: 243px 330px;
     display: inline-block;
     width: 243px; 
